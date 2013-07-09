@@ -56,3 +56,5 @@
 (require 'highlight-sexps)
 (add-hook 'lisp-mode-hook 'highlight-parentheses-mode)
 (add-hook 'lisp-mode-hook 'highlight-sexps-mode)
+
+;; some more edits
