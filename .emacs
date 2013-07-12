@@ -48,8 +48,6 @@
 (eval-after-load 'ruby-mode
   '(add-hook 'ruby-mode-hook 'inf-ruby-setup-keybindings))
 
-(shell)
-
 (show-paren-mode t)
 (add-to-list 'load-path "~/.emacs.d/downloads")
 (require 'highlight-parentheses)
